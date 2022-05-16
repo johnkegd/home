@@ -19,3 +19,6 @@
 [submodule "johnkegd"]
 	path = johnkegd
 	url = git@github.com:johnkegd/johnkegd.git
+[submodule "aem"]
+	path = aem
+	url = git@github.com:johnkegd/aem.git
