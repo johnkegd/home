@@ -7,3 +7,6 @@
 [submodule "colaborations/ceres/portfolio"]
 	path = colaborations/ceres/portfolio
 	url = git@github.com:johnkegd/ceres.git
+[submodule "frontend-area/svelte/svelte-library"]
+	path = frontend-area/svelte/svelte-library
+	url = git@github.com:johnkegd/svelte-library
