@@ -4,3 +4,6 @@
 [submodule "colaborations/brynels"]
 	path = colaborations/brynels
 	url = git@github.com:johnkegd/brynels.git
+[submodule "colaborations/ceres/portfolio"]
+	path = colaborations/ceres/portfolio
+	url = git@github.com:johnkegd/ceres.git
