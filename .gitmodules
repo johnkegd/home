@@ -1,3 +1,6 @@
 [submodule "training"]
 	path = training
 	url = git@github.com:johnkegd/training.git
+[submodule "colaborations/brynels"]
+	path = colaborations/brynels
+	url = git@github.com:johnkegd/brynels.git
