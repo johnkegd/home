@@ -16,3 +16,6 @@
 [submodule "devtools"]
 	path = devtools
 	url = git@github.com:johnkegd/devtools.git
+[submodule "johnkegd"]
+	path = johnkegd
+	url = git@github.com:johnkegd/johnkegd.git
