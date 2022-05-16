@@ -10,3 +10,6 @@
 [submodule "frontend-area/svelte/svelte-library"]
 	path = frontend-area/svelte/svelte-library
 	url = git@github.com:johnkegd/svelte-library
+[submodule "colaborations/solmedic"]
+	path = colaborations/solmedic
+	url = git@github.com:johnkegd/solmedic.git
