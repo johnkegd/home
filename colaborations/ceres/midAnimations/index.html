@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ .sprite-animal.babo {
+            background-image: url(./babo-sprite.png);
+        }
+        .sprite-animal.hyena {
+            background-image: url(./sprite-animal-hyena.png);
+        }
+        .sprite-animal.hyena {
+            margin-left: -500px;
+            width: 290px;
+            height: 300px;
+            background-image: url(./sprite-animal-hyena.png);
+            animation: hyena_amb 0.5s steps(8) infinite;
+        }
+        
+        
+        .sprite-animal.babo {
+            margin-left: 100px;
+            width: 522px;
+            height: 728px;
+            background-image: url(./babo-sprite.png);
+            animation: babo_amb 0.7s steps(11) infinite;
+        }
+
+
+        .sprite-animal {
+            margin-left: -500px;
+            top:425px;
+            width: 290;
+        }
+        .sprite-animal {
+            background:transparent no-repeat;
+            position: absolute;
+            display: inline-block;
+            visibility: visible;
+            margin:0 auto;
+            transform: scale(1, 1);
+            left: 50%;
+        }
+
+        .layer {
+            position: absolute;
+            left: 0;
+            height: 100%;
+            padding:0%;
+            width: 100%;
+            margin: 0;
+        }
+
+        .sprite-animal.hyena.active {
+            animation: hyena_jam 0.7s steps(10) infinite !important;
+        }
+
+        .sprite-animal.ape.active {
+            animation: ape_jam 0.9s steps(8) infinite !important;
+        }
+
+        button {
+            margin:45%;
+            padding:20px;
+            color:white;
+            background-color: black;
+        }
+
+        @keyframes babo_amb {
+            0%{
+                background-position: 0px;
+            }
+            100% {
+                background-position: -6000px;
+            }
+        }
+
+        @keyframes babo_jbm {
+            0%{
+                background-position: 0px;
+            }
+            100% {
+                background-position: -1776px;
+            }
+        }
+
+        @keyframes hyena_amb {
+            0%{
+                background-position: 0px;
+            }
+            100% {
+                background-position: -2400px;
+            }
+        }
+        
+
+        @keyframes hyena_jam {
+            0% {
+                background-position: -2400px;
+            }
+            100% {
+                background-position: -5400px;
+            }
+        }
+
+</style>
+<body>
+    <div class="layer">
+        <div class="sprite-animal babo">
+          </div>
+          <div class="sprite-animal hyena">
+        </div>
+        <button onclick="playAudio()">Joropo</button>
+      </div>
+</body>
+</html>
