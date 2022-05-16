@@ -13,3 +13,6 @@
 [submodule "colaborations/solmedic"]
 	path = colaborations/solmedic
 	url = git@github.com:johnkegd/solmedic.git
+[submodule "devtools"]
+	path = devtools
+	url = git@github.com:johnkegd/devtools.git
