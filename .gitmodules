@@ -22,3 +22,6 @@
 [submodule "aem"]
 	path = aem
 	url = git@github.com:johnkegd/aem.git
+[submodule "colaborations/mymth"]
+	path = colaborations/mymth
+	url = git@github.com:johnkegd/vanillajs-datepicker.git
